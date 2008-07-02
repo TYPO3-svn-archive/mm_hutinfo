@@ -9,7 +9,7 @@
 		<languageKey index="default" type="array">
 			<label index="listFieldHeader_name">Name1</label>
 			<label index="listFieldHeader_description">Description</label>
-			<label index="listFieldHeader_type_uid">Hut-Type</label>
+			<label index="listFieldHeader_type_uid">Type of business</label>
 			<label index="listFieldHeader_property_uid">Property</label>
 			<label index="listFieldHeader_map_uid">External-Map</label>
 			<label index="listFieldHeader_hutguide_uid">Hut-Guide</label>
@@ -49,7 +49,7 @@
 			<label index="pi_list_browseresults_next">Next &gt;</label>
 			<label index="pi_list_browseresults_displays">###FROM### to ###TO### out of ###OUT_OF###</label>
 			<label index="pi_list_searchBox_search">Search</label>
-			<label index="huttype">Hut-Type</label>
+			<label index="huttype">Type of business</label>
 			<label index="province">Province</label>
 			<label index="country">Country</label>
 			<label index="difficultytext">Difficulty</label>
@@ -61,14 +61,14 @@
 			<label index="label.combo.hutguide">Hutguide</label>
 			<label index="label.combo.area">Area</label>
 			<label index="label.combo.region">Tourismregion</label>
-			<label index="label.combo.type">Huttype</label>		
+			<label index="label.combo.type">Type of business</label>		
 			<label index="label.combo.province">Province</label>
 			<label index="panorama">Panoramamap</label>
 		</languageKey>
 		<languageKey index="de" type="array">
 			<label index="listFieldHeader_name">Name</label>
 			<label index="listFieldHeader_description">Beschreibung</label>
-			<label index="listFieldHeader_type_uid">Hüttentyp</label>
+			<label index="listFieldHeader_type_uid">Betriebsart</label>
 			<label index="listFieldHeader_property_uid">Eingenschaften</label>
 			<label index="listFieldHeader_map_uid">Externe Karte</label>
 			<label index="listFieldHeader_hutguide_uid">Hüttenführer</label>
@@ -108,7 +108,7 @@
 			<label index="pi_list_browseresults_next">Weiter &gt;</label>
 			<label index="pi_list_browseresults_displays">###FROM### bis ###TO### von ###OUT_OF###</label>
 			<label index="pi_list_searchBox_search">Durchsuchen</label>
-			<label index="huttype">H&#252;tten-Typ</label>
+			<label index="huttype">Betriebsart</label>
 			<label index="province">Bundesland</label>
 			<label index="country">Land</label>
 			<label index="difficultytext">Schwierigkeit</label>
@@ -120,7 +120,7 @@
 			<label index="label.combo.hutguide">H&#252;ttenf&#252;hrer</label>
 			<label index="label.combo.area">Gebirgszug</label>
 			<label index="label.combo.region">Tourismusregion</label>
-			<label index="label.combo.type">H&#252;ttentyp</label>		
+			<label index="label.combo.type">Betriebsart</label>		
 			<label index="label.combo.province">Bundesland</label>
 			<label index="panorama">Übersichtskarte</label>
 		</languageKey>		

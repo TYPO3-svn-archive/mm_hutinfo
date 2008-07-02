@@ -218,6 +218,7 @@ class tx_mmhutinfo_pi1 extends mmlib_extfrontend {
 				break;
 				
 			case 'huttype':
+				//t3lib_div::debug("hallo");
 				$result = $this->getDataFromForeignTable('type_uid','tx_mmhutinfo_type','name');
 				if(is_array($result)) $result = implode(',', $result);
 				break;
@@ -316,6 +317,27 @@ class tx_mmhutinfo_pi1 extends mmlib_extfrontend {
 					$result = $this->_getColContents(0,false,'###GOOGLEBLOCK###',array('google'));
 					}
 				break;
+			case 'openmarker':
+				if(mmlib_extfrontend::getFieldContent('opendesc') != "") {
+					$result = $this->_getColContents(0,false,'###OPENBLOCK###',array($fieldname));
+					}
+				break;
+			case 'bedsmarker':
+				if(mmlib_extfrontend::getFieldContent('bedsdesc') != "") {
+					$result = $this->_getColContents(0,false,'###BEDSBLOCK###',array($fieldname));
+					}
+				break;
+			case 'kitchenmarker':
+				if(mmlib_extfrontend::getFieldContent('kitchen_description') != "") {
+					$result = $this->_getColContents(0,false,'###KITCHENBLOCK###',array($fieldname));
+					}
+				break;
+			case 'heightmarker':
+				if(mmlib_extfrontend::getFieldContent('height') != "") {
+					$result = $this->_getColContents(0,false,'###HEIGHTBLOCK###',array($fieldname));
+					}
+				break;
+				
 				
 			case 'way1':
 			case 'way2':

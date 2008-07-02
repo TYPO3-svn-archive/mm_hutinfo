@@ -219,7 +219,11 @@
 .tx-mmhutinfo-pi1 .infoblock div {
 	padding-left: 25px;
 	}
-		
+
+.tx-mmhutinfo-pi1 div.infoblock {
+	padding-bottom: 1em;
+	}
+
 .tx-mmhutinfo-pi1 .tx-mmhutinfo-pi1-person,
 .tx-mmhutinfo-pi1 .tx-mmhutinfo-pi1-hcity {
 	padding-bottom: 0;

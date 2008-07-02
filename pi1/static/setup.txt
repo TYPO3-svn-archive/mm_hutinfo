@@ -175,7 +175,7 @@ plugin.tx_mmhutinfo_pi1.comboblock.50 {
 	localconf.label				= label.combo.province
 	}
 
-plugin.tx_mmhutinfo_pi1.comboblock.wrap = <div id="gencomboblock"><div class="roundedcorner roundedcorner_0003"><div class="t"><div class="b"><div class="l"><div class="r"><div class="bl"><div class="br"><div class="tl"><div class="tr"><h4>H&uuml;ttensuche</h4>|</div></div></div></div></div></div></div></div></div>
+plugin.tx_mmhutinfo_pi1.comboblock.wrap = <div id="gencomboblock"><div class="roundedcorner roundedcorner_0003"><div class="t"><div class="b"><div class="l"><div class="r"><div class="bl"><div class="br"><div class="tl"><div class="tr"><h4>Detailsuche</h4>|</div></div></div></div></div></div></div></div></div>
 page.10.subparts.comboblock < plugin.tx_mmhutinfo_pi1.comboblock	
 
 plugin.tx_mmhutinfo_pi1.linkblock = COA
@@ -214,7 +214,25 @@ plugin.tx_mmhutinfo_pi1.typodbfield {
 	// in here a fieldvalue ist requestet for them in 
 	// the framework
 	//dummyfieldlist = preview,ziplink,normallink,cattitle,big_preview_image,details,shortdescription,more
-	dummyfieldlist = pureuid,pureimage,preview,area,huttype,province,provinceimage,country,provincedesc,area_image,area_desc,hg_name,hg_description,hg_preview,hg_link,gkey,mailform_edit_page,editbutton,md5,touristregion,touristregdesc,touristregimage,touristreglink,way1,way2,way3,way4,way5,way6,way7,difficultytext,google,panorama,pureemail1,pureweb,pureemail2,purename
+	// obsolet:
+	//	dummyfieldlist = pureuid,pureimage,preview,area,huttype,province,provinceimage,country,provincedesc,area_image,area_desc,hg_name,hg_description,hg_preview,hg_link,gkey,mailform_edit_page,editbutton,md5,touristregion,touristregdesc,touristregimage,touristreglink,way1,way2,way3,way4,way5,way6,way7,difficultytext,google,panorama,pureemail1,pureweb,pureemail2,purename
+	
+	
+	dummyfield { 
+		value = -- dummy --- 
+		}
+	
+	area < .dummyfield
+	province < .dummyfield
+	country < .dummyfield
+	hg_name < .dummyfield
+	hg_description < .dummyfield
+	
+	// Needed for filling the marker
+	openmarker < .dummyfield
+	bedsmarker < .dummyfield
+	kitchenmarker < .dummyfield
+	heightmarker < .dummyfield
 	
 	pureuid {
 		field = uid
@@ -449,6 +467,9 @@ plugin.tx_mmhutinfo_pi1.typodbfield {
 		value = -- dummy ---
 		}
 	
+	huttype {
+		value = -- dummy ---
+		}
 }
 
 

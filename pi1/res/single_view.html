@@ -14,7 +14,7 @@
 <!-- ###SINGLEVIEW### begin -->
 <h1 class="csc-firstHeader">###NAME### <span ###NUMBER_CLASS### style="background-color: ###COLORCODE###">###NUMBER###</span></h1>
 <h2 class="subheadline">
-	<div ###HEIGHT_CLASS###>###HEIGHT### m</div> / <div ###AREA_CLASS###>###AREA###</div> / <div ###HCITY_CLASS###>###HCITY###</div>
+	###HEIGHTMARKER###<div ###AREA_CLASS###>###AREA###</div> / <div ###HCITY_CLASS###>###HCITY###</div>
 	
 </h2> 
 <div class="tabberlive">
@@ -34,15 +34,7 @@
 			
 			<div ###DESCRIPTION_CLASS###>###DESCRIPTION###</div>
 
-			<div class="infoblock offen">
-				<div ###LABEL_OPENDESC_CLASS###>###LABEL_OPENDESC###</div>
-				<div ###OPENDESC_CLASS###>###OPENDESC###</div>
-			</div>
-
-			<div class="betten infoblock bettenicon">
-				<div ###LABEL_BEDSDESC_CLASS###>###LABEL_BEDSDESC###</div>
-				<div ###BEDSDESC_CLASS###>###BEDSDESC###</div>
-	
+			###OPENMARKER###
 			<!-- 
 				<div ###LABEL_BEDS_CLASS###>###LABEL_BEDS###</div>
 				<div ###BEDS_CLASS###>###BEDS###</div> / 
@@ -50,11 +42,8 @@
 				<div ###LABEL_CAMP_CLASS###>###LABEL_CAMP###</div>
 				<div ###CAMP_CLASS###>###CAMP###</div>
 			 -->
-			</div>
-			<div class="infoblock kueche">
-				<div ###LABEL_KITCHEN_DESCRIPTION_CLASS###>###LABEL_KITCHEN_DESCRIPTION###</div>
-				<div ###KITCHEN_DESCRIPTION_CLASS###>###KITCHEN_DESCRIPTION###</div>
-			</div>
+			###BEDSMARKER###
+			###KITCHENMARKER###
 			
 			<p style="clear: both;"/>
 		</div>
@@ -309,5 +298,31 @@
 			<p style="clear: both;"/>
 		</div>		
 <!-- ###GOOGLEBLOCK### end -->
+
+<!-- ###OPENBLOCK### begin -->
+			<div class="infoblock offen">
+				<div ###LABEL_OPENDESC_CLASS###>###LABEL_OPENDESC###</div>
+				<div ###OPENDESC_CLASS###>###OPENDESC###</div>
+			</div>
+<!-- ###OPENBLOCK### end -->
+
+<!-- ###BEDSBLOCK### begin -->
+			<div class="betten infoblock bettenicon">
+				<div ###LABEL_BEDSDESC_CLASS###>###LABEL_BEDSDESC###</div>
+				<div ###BEDSDESC_CLASS###>###BEDSDESC###</div>
+			</div>
+<!-- ###BEDSBLOCK### end -->
+	
+<!-- ###KITCHENBLOCK### begin -->
+			<div class="infoblock kueche">
+				<div ###LABEL_KITCHEN_DESCRIPTION_CLASS###>###LABEL_KITCHEN_DESCRIPTION###</div>
+				<div ###KITCHEN_DESCRIPTION_CLASS###>###KITCHEN_DESCRIPTION###</div>
+			</div>
+<!-- ###KITCHENBLOCK### end -->
+
+<!-- ###HEIGHTBLOCK### begin -->
+	<div ###HEIGHT_CLASS###>###HEIGHT### m</div> /
+<!-- ###HEIGHTBLOCK### end -->
 		
+ 		
 <!--###TEMPLATE_DEFAULT### end -->

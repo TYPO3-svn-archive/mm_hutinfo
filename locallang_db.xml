@@ -28,7 +28,7 @@
 			<label index="tx_mmhutinfo_property.description">Description</label>
 			<label index="tx_mmhutinfo_property.symbol">Symbol</label>
 			<label index="tx_mmhutinfo_hut.hcity">City (Hut)</label>
-			<label index="tx_mmhutinfo_type">Hut-Type</label>
+			<label index="tx_mmhutinfo_type">Type of business</label>
 			<label index="tx_mmhutinfo_type.name">Name</label>
 			<label index="tx_mmhutinfo_type.description">Description</label>
 			<label index="tx_mmhutinfo_province">Province</label>
@@ -39,7 +39,7 @@
 			<label index="tx_mmhutinfo_hut">Hut / Cottage / Gasthof</label>
 			<label index="tx_mmhutinfo_hut.name">Name</label>
 			<label index="tx_mmhutinfo_hut.description">Description2</label>
-			<label index="tx_mmhutinfo_hut.type_uid">Hut-Type</label>
+			<label index="tx_mmhutinfo_hut.type_uid">Type of business</label>
 			<label index="tx_mmhutinfo_hut.property_uid">Property</label>
 			<label index="tx_mmhutinfo_hut.map_uid">External-Map</label>
 			<label index="tx_mmhutinfo_hut.hutguide_uid">Hut-Guide</label>
@@ -136,7 +136,7 @@
 			<label index="tx_mmhutinfo_property.name">Name</label>
 			<label index="tx_mmhutinfo_property.description">Beschreibung</label>
 			<label index="tx_mmhutinfo_property.symbol">Symbol</label>
-			<label index="tx_mmhutinfo_type">Typ der Hütte</label>
+			<label index="tx_mmhutinfo_type">Betriebsart</label>
 			<label index="tx_mmhutinfo_type.name">Name</label>
 			<label index="tx_mmhutinfo_type.description">Beschreibung</label>
 			<label index="tx_mmhutinfo_province">Bundesland</label>
@@ -147,7 +147,7 @@
 			<label index="tx_mmhutinfo_hut">Hütte / Gasthof</label>
 			<label index="tx_mmhutinfo_hut.name">Name</label>
 			<label index="tx_mmhutinfo_hut.description">Beschreibung</label>
-			<label index="tx_mmhutinfo_hut.type_uid">Hüttentyp</label>
+			<label index="tx_mmhutinfo_hut.type_uid">Betriebsart</label>
 			<label index="tx_mmhutinfo_hut.property_uid">Eigenschaften</label>
 			<label index="tx_mmhutinfo_hut.map_uid">Externer Kartenanbieter</label>
 			<label index="tx_mmhutinfo_hut.hutguide_uid">Hüttenführer</label>
